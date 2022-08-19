@@ -36,3 +36,14 @@
     appearance: none;
     outline: none;
 }
+
+@media (max-width: 600px) {
+    .filter-container { 
+      flex-direction: column;
+    }
+
+    .input-container {
+        margin-top: 20px;
+        order: 1;
+    }
+}

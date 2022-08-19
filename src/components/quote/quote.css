@@ -79,3 +79,11 @@
     left: 24px;
     bottom: -13px;
 }
+
+@media (max-width: 600px) {
+    .character {
+       flex-direction: column;
+       --Left:0;
+       --Rigth:0
+    }
+}
