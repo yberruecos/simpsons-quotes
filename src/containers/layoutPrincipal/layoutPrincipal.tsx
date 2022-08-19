@@ -4,7 +4,7 @@ import Quote, {quoteInfo} from "../../components/quote/quote"
 import useInitialData from "../../hooks/useInitialData";
 import './layoutPrincipal.css'
 
-const LayoutPrincipal=()=>{
+const LayoutPrincipal= ()=>{
     const [
         count,
         setCount,
