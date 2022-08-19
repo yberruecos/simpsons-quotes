@@ -1,0 +1,81 @@
+.character{
+    --Left:1;
+    --Rigth:0
+}
+
+.character {
+    display: flex;
+    width: 100%;
+}
+
+.character div {
+    width: 225px;
+    margin: 50px auto;
+    border: 4px solid #55797e;
+    padding: 20px;
+    text-align: center;
+    font-weight: 700;
+    color: #55797e;
+    font-family: arial;
+    position: relative;
+    border-radius: 25px;
+    background: white;
+    height: 200px;
+    font-size: 14px;
+}
+
+/* Right  */
+
+.quote-right:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid #55797e;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #55797e;
+  border-bottom: 10px solid transparent;
+  right: -21px;
+  top: 6px;
+}
+
+.quote-right:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 7px solid #fff;
+  border-right: 7px solid transparent;
+  border-top: 7px solid #fff;
+  border-bottom: 7px solid transparent;
+  right: -11px;
+  top: 10px;
+}
+
+/* Left */
+
+.quote-left:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid #55797e;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #55797e;
+    border-bottom: 10px solid transparent;
+    left: 20px;
+    bottom: -23px;
+  } 
+  
+.quote-left:after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid #fff;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #fff;
+    border-bottom: 10px solid transparent;
+    left: 24px;
+    bottom: -13px;
+}
