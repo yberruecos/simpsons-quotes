@@ -25,7 +25,7 @@ const LayoutPrincipal=()=>{
         return (
             <section>
                 <Filter count={count} setCount={setCount} character={character} setCharacter={setCharacter}></Filter>
-                <div className={count>1?'grid':''}>
+                <div className={count>1?'grid':'alone'}>
                     {
                         data?.map((item:quoteInfo,index:number)=>{
                             return <Quote key={`quotes-${index}`} info={item}></Quote>

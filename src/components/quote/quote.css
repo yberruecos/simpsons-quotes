@@ -6,6 +6,7 @@
 .character {
     display: flex;
     width: 100%;
+    width: 590px;
 }
 
 .character div {
@@ -80,9 +81,14 @@
     bottom: -13px;
 }
 
+.alone .character {
+    margin: 0 auto;
+}
+
 @media (max-width: 600px) {
     .character {
        flex-direction: column;
+       width: 250px;
        --Left:0;
        --Rigth:0
     }
